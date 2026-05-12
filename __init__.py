@@ -1,0 +1,1 @@
+"""FunASR ASR provider 插件。"""

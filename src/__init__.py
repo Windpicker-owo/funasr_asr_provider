@@ -1,0 +1,1 @@
+"""FunASR provider 内部实现。"""
