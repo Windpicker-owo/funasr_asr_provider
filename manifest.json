@@ -1,6 +1,6 @@
 {
     "name": "funasr_asr_provider",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "独立的 FunASR ASR provider，通过 asr_adapter registry 注册识别后端",
     "author": "MoFox Team",
     "dependencies": {
@@ -11,7 +11,7 @@
     "categories": ["tool"],
     "tags": ["asr", "provider", "funasr"],
     "entry_point": "plugin.py",
-    "min_core_version": "1.2.0",
+    "min_core_version": "1.2.0-alpha",
     "python_dependencies": [
         "funasr>=1.2.0",
         "sounddevice>=0.5.0",
