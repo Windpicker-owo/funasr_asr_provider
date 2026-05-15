@@ -1,10 +1,11 @@
 {
     "name": "funasr_asr_provider",
+    "display_name": "FunASR 语音识别后端",
     "version": "1.0.1",
     "description": "独立的 FunASR ASR provider，通过 asr_adapter registry 注册识别后端",
     "author": "MoFox Team",
     "dependencies": {
-        "plugins": ["asr_adapter"],
+        "plugins": ["asr_adapter>=1.0.0"],
         "components": ["asr_adapter:service:asr_provider_registry"]
     },
     "include": [],
